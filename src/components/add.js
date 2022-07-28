@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import {  FaLongArrowAltRight } from "react-icons/fa";
 import classes from "./add.module.css";
 
-import Dropzone from "./dropzone";
 
 const Add = ({ handleadd ,fetchdata,close}) => {
   const [textbox, settextbox] = useState(true);

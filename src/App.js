@@ -1,10 +1,11 @@
 import "./App.css";
 import Nav from "./components/nav";
 import Scroll from "./components/scroll";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { nanoid } from "nanoid";
 
 function App() {
+  useEffect(()=>{fetchdatahandler()},[])
   async function fetchdatahandler() {
     console.log("fth");
     const response = await fetch(

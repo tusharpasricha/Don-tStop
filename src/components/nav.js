@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classes from "./nav.module.css";
-import { FaArrowAltCircleRight, FaArrowCircleRight, FaArrowCircleUp, FaRegCalendarPlus, FaRegQuestionCircle, FaRetweet } from "react-icons/fa";
+import {  FaRegCalendarPlus, FaRegQuestionCircle, FaRetweet } from "react-icons/fa";
 import Backdrop from "./backdrop";
 import What from "./what";
 import Add from "./add";
