@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.what{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    padding-bottom: 10px;
+    height: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px; /*set to a negative number 1/2 of your height*/
+    margin-left: -40%; /*set to a negative number 1/2 of your width*/
+    font-family: 'Poppins', sans-serif;
+
+  
+   
+}
