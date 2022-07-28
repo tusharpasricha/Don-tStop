@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './scrollelement.module.css'
-import dilli from './dilli.jpg'
+import dss from './dss.jpg'
 
 const Scrollelement = ({date,text}) => {
   return (
@@ -17,7 +17,7 @@ const Scrollelement = ({date,text}) => {
 
         </div>
         <div className={classes.photo}>
-            <img className={classes.img} src={dilli} alt="" />
+            <img className={classes.img} src={dss} alt="" />
         </div>
         <div className={classes.text}>
         {text}
